@@ -1,0 +1,46 @@
+<html>   
+<head>   
+    <title>rembgpy by Alper Tuna KILIÇ</title>   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../static/anasayfa.css">
+</head>   
+<body>   
+    <h1 class="title">REMBGPY: PYTHON kullanan bir resim arka plan silme WEB sitesi.</h1>
+    <br>
+    <h2 class="alter_title">REMBGPY, python'da rembg, flask ve pymysql isimli modülleri kullanarak yapılmış bir sitedir. Alper Tuna KILIÇ tarafından kodlanmıştır.</h2>
+    <br>
+    <br>
+    <a href="upload"><button class="upload_button">DOSYA YÜKLE</button></a>
+    <br><br><br><br><br>
+    <img src="../static/img/sample1.png" width="450" height="600" class="sample1">
+    <img src="../static/img/sample2.png" width="450" height="600" class="sample2">
+    <img src="../static/img/sample3.png" width="450" height="600" class="sample3">
+    <p class="info">
+        rembgpy, arka planı otomatik olarak kaldırmak için kullanılan bir Python modülüdür. Bu modül, bir görüntünün arka planını tahmin etmek ve ardından arka planı temizlemek için derin öğrenme tekniklerini kullanır. İşte rembgpy modülünün nasıl çalıştığına dair basit bir açıklama:
+        <br><br>
+        Giriş Görüntüsünün Yükleme: rembgpy, arka planı kaldırmak için bir giriş görüntüsü alır. Bu görüntü PNG formatında olmalıdır ve mümkün olduğunca yüksek kaliteli olmalıdır.
+        <br><br>
+        Görüntünün İşlenmesi: Giriş görüntüsü, modül tarafından işlenir ve derin öğrenme modeline uygun bir formata dönüştürülür. Bu model, arka planı belirlemek ve kaldırmak için eğitilmiştir.
+        <br><br>
+        Arka Plan Tahmini: İşlenmiş görüntü, derin öğrenme modeline beslenir ve model, görüntünün arka planını tahmin etmek için çalışır. Model, piksellerin arka plana ait olup olmadığını belirlemek için çeşitli özellikleri dikkate alır.
+        <br><br>
+        Arka Planı Kaldırma: Model tarafından tahmin edilen arka plan, giriş görüntüsünden kaldırılır. Bu adım, model tarafından belirlenen arka plan piksellerini gölgeleme veya silme işlemiyle gerçekleştirilir.
+        <br><br>
+        Sonuç Görüntüsü: Arka planı kaldırılmış görüntü, işlenmiş haliyle çıktı olarak verilir. Bu görüntü, artık bir görüntü işleme veya analiz uygulamasında kullanılabilir.
+        <br><br>
+        Bu adımlar, genel olarak rembgpy modülünün çalışma sürecini tanımlar. Ancak, modülün iç yapısı ve kullanımıyla ilgili daha detaylı bilgiler için modülün resmi dokümantasyonuna bakmanız önerilir.
+        
+        
+        </p>
+    <div class="footer">
+        <a href="my_account"><span class="material-symbols-outlined">
+            manage_accounts
+            </span></a>
+        <a href="https://gmail.com/"><p class="foot">by Alper Tuna KILIÇ</p></a><p class="foot2">uses ngrok</p>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAANlBMVEUCI4////+ap9I6VKj3+Pz7+/2hrdYiP50nQ5/v8fhHX62uudvf4/GOnc3Iz+eyvN1BWqvo6/XKg/hXAAAASElEQVR4AWNABaOAEQSYGJhZgBQrGzsuBRycjGDAwoVdATcPIxSwsGMoQAO8hBTwYVXALwACfCAmDw5fgAA/iClIjoJRBaMAAAV0Aurx8qm0AAAAAElFTkSuQmCC" alt="ngrok", width="50", height="50" class="ngroklogo">
+    </div>
+      <script src="../static/js/anasayfa.js"></script>
+</body>   
+</html>

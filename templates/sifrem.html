@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rembgpy | kodland: kritik işlem</title>
+    <link rel="stylesheet" href="../static/sifrem.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+        <span class="material-symbols-outlined">
+            warning
+        </span>
+        <h1>Şifrenizi değiştirin:</h1>
+        <form method="post" action="{{ url_for('auth') }}">
+            <input type="password" placeholder="YENİ ŞİFRENİZ" required name="new_password">
+            <br>
+            <br>
+            <button type="submit">SIFIRLA</button>
+        </form>
+    </div>
+    
+</body>
+</html>

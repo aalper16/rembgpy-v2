@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+        }
+        .title{
+            color: black;
+            font-family: monospace;
+            font-size: 32px;
+        }
+        .container{
+            margin-left:35%;
+            border-radius: 30px;
+            height: 250px;
+            width: 400px;
+            background-color: #f8b500;
+            text-align: center;
+            align-items: center;
+        }
+        .num_container{
+            background-color: black;
+            border-radius: 30px;
+            width: 50%;
+            align-items: center;
+            text-align: center;
+            margin-left:25%;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .code{
+            font-family: monospace;
+            font-size: 48px;
+            transition: color 0.3s ease-in-out;
+            color: white
+        }
+        .num_container:hover{
+            background-color:#f8b500;
+
+        }
+        .num_container:hover .code{
+            color:black
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="title">rembgpy posta doğrulama kodu:</p>
+        <div class="num_container">
+            <p class="code">9999999</p>
+        </div>
+    </div>
+</body>
+</html>

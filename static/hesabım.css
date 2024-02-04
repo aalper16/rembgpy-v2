@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(130deg,#fff,#f8b500);
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ekranın tamamını kaplamak için */
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', monospace;
+}
+
+.container {
+    display: inline;
+    background-color: #f0f0f0;
+    transition: background-color 0.6s ease-in-out;
+    color: black;
+    border-radius: 30px;
+    width:70%;
+    height: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.material-symbols-outlined {
+
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+.container userinfo{
+    font-size: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    position: absolute;
+    margin-left: 3px;
+    color:black;
+}
+
+.container .title{
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+
+.container .usernames {
+    margin-top: 175px;
+    
+}
+
+.container .usernames .username {
+    position: absolute;
+    font-size: 30px;
+}
+
+
+.container .usernames .username1 {
+    position: absolute;
+    margin-left: 275px;
+    font-size: 30px;
+}
+
+.container .ids {
+    margin-top: 300px;
+}
+
+.container .ids .id{
+    position: absolute;
+    font-size: 30px;
+}
+
+.container .ids .id1 {
+    position: absolute;
+    margin-left: 290px; 
+    font-size: 30px;
+}
+.container homebtn {
+    display: inline;
+    font-size: 50px;
+    top:100;
+    right: 300;
+    position: absolute;
+    margin-left: 800px;
+    color:black;
+}
